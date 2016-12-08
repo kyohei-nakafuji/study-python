@@ -3,7 +3,7 @@ from bottle import route, run
 
 @route("/")
 def hello_world():
-        return "Hello World!"
+        return "Hello World update"
 
 @route("/hello")
 def hello_world():
