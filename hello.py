@@ -24,5 +24,5 @@ def search():
 #    return r
     return body
 
-#run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
-run(host="localhost", port=int(os.environ.get("PORT", 5000)))
+run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+#run(host="localhost", port=int(os.environ.get("PORT", 5000)))
