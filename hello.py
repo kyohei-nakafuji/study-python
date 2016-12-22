@@ -16,15 +16,15 @@ def search():
 def search():
     data = request.json
     list= [
-        {'id':'1','name':'佐藤','kana':'サトウ'},
-        {'id':'2','name':'田中','kana':'タナカ'},
-        {'id':'3','name':'鈴木','kana':'スズキ'},
-        {'id':'4','name':'斎藤','kana':'サイトウ'},
-        {'id':'5','name':'高橋','kana':'タカハシ'},
-        {'id':'6','name':'伊藤','kana':'イトウ'},
-        {'id':'7','name':'渡辺','kana':'ワタナベ'},
-        {'id':'8','name':'山本','kana':'ヤマモト'},
-        {'id':'9','name':'中村','kana':'ナカムラ'}
+        {'id':'1','name':u'佐藤','kana':u'サトウ'},
+        {'id':'2','name':u'田中','kana':u'タナカ'},
+        {'id':'3','name':u'鈴木','kana':u'スズキ'},
+        {'id':'4','name':u'斎藤','kana':u'サイトウ'},
+        {'id':'5','name':u'高橋','kana':u'タカハシ'},
+        {'id':'6','name':u'伊藤','kana':u'イトウ'},
+        {'id':'7','name':u'渡辺','kana':u'ワタナベ'},
+        {'id':'8','name':u'山本','kana':u'ヤマモト'},
+        {'id':'9','name':u'中村','kana':u'ナカムラ'}
     ]
 
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -54,15 +54,15 @@ def search():
 def search():
     data = request.json
     list= [
-        {'id':'1','name':'佐藤','kana':'サトウ'},
-        {'id':'2','name':'田中','kana':'タナカ'},
-        {'id':'3','name':'鈴木','kana':'スズキ'},
-        {'id':'4','name':'斎藤','kana':'サイトウ'},
-        {'id':'5','name':'高橋','kana':'タカハシ'},
-        {'id':'6','name':'伊藤','kana':'イトウ'},
-        {'id':'7','name':'渡辺','kana':'ワタナベ'},
-        {'id':'8','name':'山本','kana':'ヤマモト'},
-        {'id':'9','name':'中村','kana':'ナカムラ'}
+        {'id':'1','name':u'佐藤','kana':u'サトウ'},
+        {'id':'2','name':u'田中','kana':u'タナカ'},
+        {'id':'3','name':u'鈴木','kana':u'スズキ'},
+        {'id':'4','name':u'斎藤','kana':u'サイトウ'},
+        {'id':'5','name':u'高橋','kana':u'タカハシ'},
+        {'id':'6','name':u'伊藤','kana':u'イトウ'},
+        {'id':'7','name':u'渡辺','kana':u'ワタナベ'},
+        {'id':'8','name':u'山本','kana':u'ヤマモト'},
+        {'id':'9','name':u'中村','kana':u'ナカムラ'}
     ]
 
     response.headers['Access-Control-Allow-Origin'] = '*'
