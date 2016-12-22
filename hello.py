@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os,json
 from bottle import route, run, request, response, HTTPResponse
 from time import sleep
